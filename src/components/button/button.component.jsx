@@ -1,8 +1,8 @@
-import './button.styles.scss';
+import "./button.styles.scss";
 
-const BUTTON_TYPE_CLASSES = {
-  google: 'google-sign-in',
-  inverted: 'inverted',
+export const BUTTON_TYPE_CLASSES = {
+  google: "google-sign-in",
+  inverted: "inverted",
 };
 
 const Button = ({ children, buttonType, ...otherProps }) => {
@@ -13,9 +13,6 @@ const Button = ({ children, buttonType, ...otherProps }) => {
     >
       {children}
     </button>
-
-
-
   );
 };
 
